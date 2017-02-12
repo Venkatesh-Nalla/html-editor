@@ -1,0 +1,35 @@
+{
+  "name": "html-editor",
+  "version": "1.0.0",
+  "description": "live html editor",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "build": "webpack -p",
+    "dev": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriramveeraghanta/html-editor.git"
+  },
+  "keywords": [
+    "react",
+    "html-editor"
+  ],
+  "author": "sriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sriramveeraghanta/html-editor/issues"
+  },
+  "homepage": "https://github.com/sriramveeraghanta/html-editor#readme",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "codemirror": "^5.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  }
+}
